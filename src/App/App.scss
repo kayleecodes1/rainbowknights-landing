@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html,
+body {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.App {
+    position: absolute;
+    inset: 0 0 0 0;
+    display: 'flex';
+    flex-flow: column nowrap;
+    background: #f6f8ea;
+    padding-top: 10px;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 10px;
+        background: url(../assets/rainbow-banner.svg) top center no-repeat;
+        background-size: 100%;
+    }
+}
+
+header {
+    margin-top: 24px;
+}
+
+.Logo {
+    display: block;
+    width: 128px;
+    height: 128px;
+    background: url(../assets/logo.png) center center no-repeat;
+    background-size: contain;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.Meta {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 8px;
+
+    &__title {
+        margin: 0;
+        font-weight: 700;
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+
+    &__description {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+$sociallist-icon-size: 48px;
+$sociallist-gap: 16px;
+
+.Connect {
+    margin-top: 24px;
+}
+
+.SocialList {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: $sociallist-gap;
+    padding: 0;
+
+    &__item {
+        //
+    }
+
+    &__link {
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        cursor: pointer;
+
+        &--instagram {
+            display: block;
+            width: $sociallist-icon-size;
+            height: $sociallist-icon-size;
+            background: url(../assets/instagram.png) center center no-repeat;
+            background-size: contain;
+        }
+
+        &--facebook {
+            display: block;
+            width: 48px;
+            height: 48px;
+            background: url(../assets/facebook.png) center center no-repeat;
+            background-size: contain;
+        }
+    }
+}
+
+.Resources {
+    margin-top: 24px;
+}
+
+.ResourceList {
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 12px;
+    padding: 0;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        height: 52px;
+        font-weight: 600;
+        background: #fff;
+        border-radius: 24px;
+        box-shadow: 0px 4px 24px -12px rgba(0, 0, 0, 0.5);
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:visited {
+            color: inherit;
+        }
+    }
+}
+
+.Copyright {
+    margin-top: 24px;
+    font-size: 0.8em;
+    color: #666;
+}

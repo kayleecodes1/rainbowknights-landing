@@ -1,0 +1,39 @@
+<svg id="HeaderRainbow" xmlns="http://www.w3.org/2000/svg" width="1000" height="10" viewBox="0 0 1000 10">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff5e71;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #ffa068;
+      }
+
+      .cls-3 {
+        fill: #ffeb6a;
+      }
+
+      .cls-4 {
+        fill: #c2f55a;
+      }
+
+      .cls-5 {
+        fill: #39d5ff;
+      }
+
+      .cls-6 {
+        fill: #8e4ed2;
+      }
+    </style>
+  </defs>
+  <path id="Rectangle_1_copy_3" data-name="Rectangle 1 copy 3" class="cls-1" d="M166.667,10H0V0H166.667V10Z"/>
+  <path id="Rectangle_1_copy_4" data-name="Rectangle 1 copy 4" class="cls-2" d="M333.333,10H166.667V0H333.333V10Z"/>
+  <path id="Rectangle_1_copy_5" data-name="Rectangle 1 copy 5" class="cls-3" d="M500,10H333.333V0H500V10Z"/>
+  <path class="cls-4" d="M666.667,10H500V0H666.667V10Z"/>
+  <path id="Rectangle_1_copy_2" data-name="Rectangle 1 copy 2" class="cls-5" d="M833.333,10H666.667V0H833.333V10Z"/>
+  <path id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-6" d="M1000,10H833.333V0H1000V10Z"/>
+</svg>
