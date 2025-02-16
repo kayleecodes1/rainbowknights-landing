@@ -43,6 +43,15 @@ const App: React.FC = () => {
                 <section className="Resources">
                     <div className="container">
                         <ul className="ResourceList">
+                            <li className="ResourceList__item ResourceList__item--primary">
+                                <a
+                                    className="ResourceList__link"
+                                    target="_blank"
+                                    href="https://givebutter.com/rainbowknights"
+                                >
+                                    Donate
+                                </a>
+                            </li>
                             <li className="ResourceList__item">
                                 <a
                                     className="ResourceList__link"
@@ -50,6 +59,15 @@ const App: React.FC = () => {
                                     href="https://docs.google.com/document/d/1yDdy_H-ylwU5z5qjhucOJtZRT2GTMfniWuQ6tdzTxT4/edit?tab=t.0#heading=h.r9nrc14fnl6y"
                                 >
                                     About the Rainbow Knights
+                                </a>
+                            </li>
+                            <li className="ResourceList__item">
+                                <a
+                                    className="ResourceList__link"
+                                    target="_blank"
+                                    href="https://docs.google.com/document/d/13YZyfR-81RXCvAfsBth4MhgiHxwC347xS6J7wS5iQhI/edit?usp=sharing"
+                                >
+                                    Stoughton Pride 2025
                                 </a>
                             </li>
                             <li className="ResourceList__item">
